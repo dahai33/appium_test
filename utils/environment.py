@@ -84,6 +84,7 @@ class Environment:
                                    app_activity, app_package)
         with open(env_path, 'w') as f:
             yaml.dump(env_info, f, default_flow_style=False)
+
         L.i('保存环境配置 Path:' + env_path)
 
     def get_environment_info(self) -> EnvironmentInfo:

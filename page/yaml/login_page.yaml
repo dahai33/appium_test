@@ -14,3 +14,7 @@ LoginPage:
       name: 登录
       type: id
       value: com.grandale.uo:id/btn_register
+      name: 登录
+      type: id
+      value: com.grandale.uo:id/btn_register
+
